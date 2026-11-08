@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anjali's Love World</title>
+<style>
+* { box-sizing:border-box; }
+body {
+  margin:0;
+  text-align:center;
+  font-family:Arial,sans-serif;
+  background:linear-gradient(135deg,#ffe0ed,#e8dcff);
+  color:#713d68;
+}
+.card {
+  background:#ffffffd9;
+  margin:35px 18px;
+  padding:28px 18px;
+  border-radius:30px;
+  box-shadow:0 8px 25px #bb82ad44;
+}
+h1 { color:#e75c9b; }
+button {
+  background:#f17eae;
+  color:white;
+  border:0;
+  padding:14px 24px;
+  border-radius:30px;
+  font-size:16px;
+  margin:10px;
+}
+.heart {
+  font-size:40px;
+  animation:beat 1s infinite;
+}
+@keyframes beat {
+  50% { transform:scale(1.2); }
+}
+#surprise {
+  display:none;
+  line-height:1.8;
+  font-size:18px;
+}
+footer { padding:20px; }
+.photo-frame {
+  margin:25px auto;
+  padding:15px;
+  background:#fff0f6;
+  border-radius:25px;
+  max-width:300px;
+}
+
+.photo-frame img {
+  width:100%;
+  height:300px;
+  object-fit:cover;
+  border-radius:20px;
+}
+
+.photo-frame h2 {
+  color:#e75c9b;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="heart">💗</div>
+  <h1>Hey Anjali! 🥰</h1>
+  <h3>Welcome to your little world!</h3>
+  <p>I made something special just for you.</p>
+  <button onclick="showLove()">Open Your Surprise 🎁</button>
+
+  <div id="surprise">
+    <h2>Dear Anjali ❤️</h2>
+    <p>
+      Distance may keep us apart,
+      but you always have a special
+      place in my heart.
+    </p>
+    <p>You're my favourite person! 🧸</p>
+    <div>💗 💕 💖 💗</div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Our Little Universe 🌍</h2>
+  <p>Two hearts, one beautiful story.</p>
+  <p>More memories, more smiles, more us! 💞</p>
+</div>
+
+<div class="card">
+  <h2>💌 A Secret For Anjali</h2>
+  <p>There is something I want to tell you...</p>
+
+  <button onclick="openLetter()">
+    Open My Heart ❤️
+  </button>
+
+  <div id="letter" style="display:none;">
+    <h2>Dear Anjali 🥰</h2>
+    <p>
+      bacha i love you yr babu i love you so much
+      betu aapke jitna pyar mujhe koi nhi kr sakta
+      or ab mujhe is pyar ki addat hogyi h isliye me
+      aapko kabhi nhi chhod sakta na hi kabhi cheat kr
+      sakta hu i love you bacha 
+    </p>
+    <p>
+      Chahe hum kitne bhi door hon,
+      tumhari smile mere liye special hai.
+    </p>
+    <h3>Forever Special 💗</h3>
+    <p>Yours ❤️</p>suar
+  </div>
+</div>
+
+<footer>Made with ❤️ just for Anjali</footer>
+
+<script>
+function showLove() {
+  
+  document.getElementById("surprise").style.display="block";
+}
+
+function openLetter() {
+  document.getElementById("letter").style.display = "block";
+}
+
+</script>
+
+</body>
+</html>
+<h3>Welcome to your little world!</h3>
+<div class="photo-frame">
+  <img src="anjali.jpg" alt="Anjali">
+  <h2>My Favourite Person 💗</h2>
+  <p>Someone who makes my world beautiful 🌸</p>
+</div>
